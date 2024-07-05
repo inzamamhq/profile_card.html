@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background-color: rgb(247, 248, 248);
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px;
+	gap: 50px;
+}
+.container {
+	background-color: #fff;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.v-card {
+	height: 490px;
+	width: 300px;
+	padding: 5px 5px;
+	background-color: #fff;
+	border-radius: 10px 10px 5px 5px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 5px;
+}
+.v-card-image {
+	height: 150px;
+	background-image: url("https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+.v-card-image img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: blanchedalmond 3px solid;
+	position: relative;
+	top: 20px;
+}
+.v-card-image p {
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: rgb(243, 234, 232);
+	padding: 8px;
+	background-color: black;
+	opacity: 70%;
+	left: 80px;
+	position: relative;
+	border-radius: 10px 10px;
+}
+.info {
+	background-color: white;
+	color: black;
+	width: 100%;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px 5px 10px 10px;
+}
+
+.info p {
+	text-align: justify;
+	width: 90%;
+	padding: 5px 5px;
+	font-size: 13px;
+}
+h4 {
+	color: gray;
+	font-size: 14px;
+}
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contact {
+	background-color: rgb(24, 22, 22);
+	width: 100%;
+	margin-top: 5px;
+	padding: 5px 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.contact address {
+	color: rgb(14, 14, 14);
+	font-size: 12px;
+	padding: 15px 10px;
+	text-align: left;
+	line-height: 1.2rem;
+	align-items: start;
+	justify-content: start;
+	border-right: 1px solid rgb(232, 228, 228);
+	color: whitesmoke;
+}
+span {
+	padding: 2px 2px;
+}
+.social {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	color: #fff;
+}
+.icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+	color: palegoldenrod;
+}
+
+.hcard {
+	height: 300px;
+	width: 400px;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 10px 10px 5px 5px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 10px;
+}
